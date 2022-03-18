@@ -6,10 +6,21 @@ Estilo da página index.html
     text-align: center;
 }
 
-.justify {
+
+p {
 text-align: justify;
-font-size: 20px;
+font-size: 20px
+
 }
+
+
+
+h2 {
+    text-align: justify;
+    font-size: 30px;
+    color: rgb(255, 0, 0)
+    }
+
 
 .container {
     display: flex;
@@ -20,18 +31,25 @@ font-size: 20px;
 
 #menu li {
     display: inline;
-    padding: 15px;
-    
+    padding: 15px
+
 }
 
+
 #menu li a {
-    text-decoration: none;
-    color: black;
-    font-size:20px ;
+    text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-decoration:none;
+    justify-content:flex-end;
+
+    
+
 }
 
 #menu li a:hover {
-    color:red;
+    color:rgb(255, 0, 0);
 }
 
 .p-30 {
@@ -42,9 +60,7 @@ font-size: 20px;
     border-radius: 10%;
 }
 
-.clt {
-    color: red;
-}
+
 
 .tm-social {
     width: 40px;
@@ -59,4 +75,8 @@ font-size: 20px;
 
 .ml-50 {
     margin-left: 50px;
+}
+
+body {
+    background: linear-gradient(rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 0, 0, 0.842) );
 }
